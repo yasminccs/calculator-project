@@ -34,7 +34,7 @@ div#calculator {
 
 div#display {
     margin-top: 54px;
-    padding-inline: 54px;
+    padding-inline: 38px;
 }
 
 div#last-calc {
@@ -45,15 +45,18 @@ div#last-calc {
 }
 
 div#result {
-    margin-top: 8px;
     display: flex;
     justify-content: space-between;
 }
 
-#result span {
-    font-size: 36px;
-    line-height: 140%;
+input#input {
+    background-color: transparent;
+    height: 90px;
+    width: 100%;
     color: #ebebeb;
+    /* border: none; */
+    font-size: 30px;
+    text-align: right;
 }
 
 #keyboard {
