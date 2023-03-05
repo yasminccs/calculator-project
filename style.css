@@ -49,13 +49,15 @@ div#result {
     justify-content: space-between;
 }
 
-input#input {
+textarea#input {
     background-color: transparent;
     height: 90px;
     width: 100%;
+    resize: none;
     color: #ebebeb;
-    /* border: none; */
-    font-size: 30px;
+    border: none;
+    font-size: 25px;
+    outline: none;
     text-align: right;
 }
 
